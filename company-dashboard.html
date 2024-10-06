@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Company Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/company.css">
+</head>
+<body>
+  <header> </header>
+  <main>
+    <h2>Company Dashboard</h2>
+    <section id="posted-internships">
+      <!-- List of posted internships will be loaded here -->
+    </section>
+    <button id="post-new-internship">Post New Internship</button>
+    <form id="post-internship-form" style="display: none;">
+      <label for="internshipTitle">Internship Title:</label><br>
+      <input type="text" id="internshipTitle" name="internshipTitle" required><br><br>
+
+      <label for="internshipDescription">Internship Description:</label><br>
+      <textarea id="internshipDescription" name="internshipDescription" required></textarea><br><br>
+
+      <button type="submit">Post Internship</button>
+    </form>
+  </main>
+  <footer> </footer>
+  <script src="js/company.js"></script> 
+</body>
+</html>
