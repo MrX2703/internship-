@@ -1,5 +1,5 @@
 // Load internship data from JSON file
-fetch('data/internships.json')
+fetch('internships.json')
   .then(response => response.json())
   .then(data => {
     // Create internship listings
@@ -22,7 +22,7 @@ fetch('data/internships.json')
 document.addEventListener('click', event => {
   if (event.target.tagName === 'BUTTON' && event.target.textContent === 'View Details') {
     const internshipId = event.target.parentNode.dataset.internshipId;
-    fetch(`data/internships.json`)
+    fetch(`internships.json`)
       .then(response => response.json())
       .then(data => {
         const internship = data.find(internship => internship.id === internshipId);
