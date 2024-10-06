@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "Web Development Internship",
+    "company": "ABC Company",
+    "location": "Bangalore",
+    "image": "images/webdev.jpg",
+    "shortDescription": "Exciting opportunity for aspiring web developers...",
+    "fullDescription": "... (Detailed description)"
+  },
+  {
+    "id": "2",
+    "title": "Data Science Internship",
+    "company": "XYZ Corporation",
+    "location": "Mumbai",
+    "image": "images/datascience.jpg",
+    "shortDescription": "Join our team of data scientists and work on exciting projects...",
+    "fullDescription": "... (Detailed description)"
+  },
+ {
+    "id": "3",
+    "title": "Marketing Internship",
+    "company": "PQR Agency",
+    "location": "Delhi",
+    "image": "images/marketing.jpg",
+    "shortDescription": "Help us create innovative marketing campaigns...",
+    "fullDescription": "... (Detailed description)"
+  }
+]
